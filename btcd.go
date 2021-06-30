@@ -15,9 +15,9 @@ import (
 	"runtime/debug"
 	"runtime/pprof"
 
-	"github.com/btcsuite/btcd/blockchain/indexers"
-	"github.com/btcsuite/btcd/database"
-	"github.com/btcsuite/btcd/limits"
+	"github.com/firobridge/btcd/blockchain/indexers"
+	"github.com/firobridge/btcd/database"
+	"github.com/firobridge/btcd/limits"
 )
 
 const (

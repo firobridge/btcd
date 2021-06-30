@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/btcsuite/btcd/blockchain"
-	"github.com/btcsuite/btcd/txscript"
-	"github.com/btcsuite/btcd/wire"
 	"github.com/btcsuite/btcutil"
+	"github.com/firobridge/btcd/blockchain"
+	"github.com/firobridge/btcd/txscript"
+	"github.com/firobridge/btcd/wire"
 )
 
 const (

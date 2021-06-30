@@ -10,8 +10,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcd/chaincfg/chainhash"
 	"github.com/davecgh/go-spew/spew"
+	"github.com/firobridge/btcd/chaincfg/chainhash"
 )
 
 // TestInv tests the MsgInv API.
