@@ -14,7 +14,6 @@ import (
 	"github.com/firobridge/btcd/blockchain"
 	"github.com/firobridge/btcd/chaincfg"
 	"github.com/firobridge/btcd/chaincfg/chainhash"
-	"github.com/firobridge/btcd/mining"
 	"github.com/firobridge/btcd/txscript"
 	"github.com/firobridge/btcd/wire"
 	"github.com/firobridge/btcutil"
@@ -183,19 +182,19 @@ func CreateBlock(prevBlock *btcutil.Block, inclusionTxs []*btcutil.Tx,
 		blockTxns = append(blockTxns, inclusionTxs...)
 	}
 
-	// We must add the witness commitment to the coinbase if any
-	// transactions are segwit.
-	witnessIncluded := false
-	for i := 1; i < len(blockTxns); i++ {
-		if blockTxns[i].MsgTx().HasWitness() {
-			witnessIncluded = true
-			break
-		}
-	}
+	// // We must add the witness commitment to the coinbase if any
+	// // transactions are segwit.
+	// witnessIncluded := false
+	// for i := 1; i < len(blockTxns); i++ {
+	// 	if blockTxns[i].MsgTx().HasWitness() {
+	// 		witnessIncluded = true
+	// 		break
+	// 	}
+	// }
 
-	if witnessIncluded {
-		_ = mining.AddWitnessCommitment(coinbaseTx, blockTxns)
-	}
+	// if witnessIncluded {
+	// 	_ = mining.AddWitnessCommitment(coinbaseTx, blockTxns)
+	// }
 
 	merkles := blockchain.BuildMerkleTreeStore(blockTxns, false)
 	var block wire.MsgBlock
