@@ -14,7 +14,6 @@ import (
 	"sort"
 	"sync"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/goleveldb/leveldb"
 	"github.com/btcsuite/goleveldb/leveldb/comparer"
 	ldberrors "github.com/btcsuite/goleveldb/leveldb/errors"
@@ -26,6 +25,7 @@ import (
 	"github.com/firobridge/btcd/database"
 	"github.com/firobridge/btcd/database/internal/treap"
 	"github.com/firobridge/btcd/wire"
+	"github.com/firobridge/btcutil"
 )
 
 const (

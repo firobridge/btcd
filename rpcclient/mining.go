@@ -9,9 +9,9 @@ import (
 	"encoding/json"
 	"errors"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/btcjson"
 	"github.com/firobridge/btcd/chaincfg/chainhash"
+	"github.com/firobridge/btcutil"
 )
 
 // FutureGenerateResult is a future promise to deliver the result of a

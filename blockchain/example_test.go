@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/blockchain"
 	"github.com/firobridge/btcd/chaincfg"
 	"github.com/firobridge/btcd/database"
 	_ "github.com/firobridge/btcd/database/ffldb"
+	"github.com/firobridge/btcutil"
 )
 
 // This example demonstrates how to create a new chain instance and use

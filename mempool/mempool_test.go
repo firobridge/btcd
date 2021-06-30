@@ -12,13 +12,13 @@ import (
 	"testing"
 	"time"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/blockchain"
 	"github.com/firobridge/btcd/btcec"
 	"github.com/firobridge/btcd/chaincfg"
 	"github.com/firobridge/btcd/chaincfg/chainhash"
 	"github.com/firobridge/btcd/txscript"
 	"github.com/firobridge/btcd/wire"
+	"github.com/firobridge/btcutil"
 )
 
 // fakeChain is used by the pool harness to provide generated test utxos and

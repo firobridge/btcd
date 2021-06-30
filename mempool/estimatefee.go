@@ -16,9 +16,9 @@ import (
 	"strings"
 	"sync"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/chaincfg/chainhash"
 	"github.com/firobridge/btcd/mining"
+	"github.com/firobridge/btcutil"
 )
 
 // TODO incorporate Alex Morcos' modifications to Gavin's initial model

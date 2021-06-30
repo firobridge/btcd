@@ -10,11 +10,11 @@ import (
 	"os"
 	"path/filepath"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/chaincfg"
 	"github.com/firobridge/btcd/database"
 	_ "github.com/firobridge/btcd/database/ffldb"
 	"github.com/firobridge/btcd/wire"
+	"github.com/firobridge/btcutil"
 )
 
 var (

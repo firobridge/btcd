@@ -20,7 +20,6 @@ import (
 	"sync"
 	"time"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/websocket"
 	"github.com/firobridge/btcd/blockchain"
 	"github.com/firobridge/btcd/btcjson"
@@ -29,6 +28,7 @@ import (
 	"github.com/firobridge/btcd/database"
 	"github.com/firobridge/btcd/txscript"
 	"github.com/firobridge/btcd/wire"
+	"github.com/firobridge/btcutil"
 	"golang.org/x/crypto/ripemd160"
 )
 

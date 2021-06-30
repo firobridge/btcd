@@ -11,9 +11,9 @@ import (
 	"encoding/binary"
 	"errors"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/blockchain"
 	"github.com/firobridge/btcd/database"
+	"github.com/firobridge/btcutil"
 )
 
 var (

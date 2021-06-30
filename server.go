@@ -22,8 +22,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/bloom"
 	"github.com/firobridge/btcd/addrmgr"
 	"github.com/firobridge/btcd/blockchain"
 	"github.com/firobridge/btcd/blockchain/indexers"
@@ -38,6 +36,8 @@ import (
 	"github.com/firobridge/btcd/peer"
 	"github.com/firobridge/btcd/txscript"
 	"github.com/firobridge/btcd/wire"
+	"github.com/firobridge/btcutil"
+	"github.com/firobridge/btcutil/bloom"
 )
 
 const (

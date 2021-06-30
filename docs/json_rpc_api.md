@@ -1100,7 +1100,7 @@ import (
 	"path/filepath"
 
 	"github.com/firobridge/btcd/rpcclient"
-	"github.com/btcsuite/btcutil"
+	"github.com/firobridge/btcutil"
 )
 
 func main() {
@@ -1164,7 +1164,7 @@ import (
 
 	"github.com/firobridge/btcd/chaincfg/chainhash"
 	"github.com/firobridge/btcd/rpcclient"
-	"github.com/btcsuite/btcutil"
+	"github.com/firobridge/btcutil"
 )
 
 func main() {
@@ -1256,7 +1256,7 @@ import (
 
 	"github.com/firobridge/btcd/chaincfg/chainhash"
 	"github.com/firobridge/btcd/rpcclient"
-	"github.com/btcsuite/btcutil"
+	"github.com/firobridge/btcutil"
 )
 
 func main() {

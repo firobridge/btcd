@@ -8,12 +8,12 @@ import (
 	"encoding/hex"
 	"fmt"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/btcec"
 	"github.com/firobridge/btcd/chaincfg"
 	"github.com/firobridge/btcd/chaincfg/chainhash"
 	"github.com/firobridge/btcd/txscript"
 	"github.com/firobridge/btcd/wire"
+	"github.com/firobridge/btcutil"
 )
 
 // This example demonstrates creating a script which pays to a bitcoin address.

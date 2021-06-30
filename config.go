@@ -21,7 +21,6 @@ import (
 	"strings"
 	"time"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/go-socks/socks"
 	"github.com/firobridge/btcd/blockchain"
 	"github.com/firobridge/btcd/chaincfg"
@@ -31,6 +30,7 @@ import (
 	_ "github.com/firobridge/btcd/database/ffldb"
 	"github.com/firobridge/btcd/mempool"
 	"github.com/firobridge/btcd/peer"
+	"github.com/firobridge/btcutil"
 	flags "github.com/jessevdk/go-flags"
 )
 

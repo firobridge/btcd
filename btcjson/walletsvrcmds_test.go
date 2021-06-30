@@ -11,8 +11,8 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/btcjson"
+	"github.com/firobridge/btcutil"
 )
 
 // TestWalletSvrCmds tests all of the wallet server commands marshal and

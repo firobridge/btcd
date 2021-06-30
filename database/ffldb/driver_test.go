@@ -11,10 +11,10 @@ import (
 	"reflect"
 	"testing"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/chaincfg"
 	"github.com/firobridge/btcd/database"
 	"github.com/firobridge/btcd/database/ffldb"
+	"github.com/firobridge/btcutil"
 )
 
 // dbType is the database type name for this driver.

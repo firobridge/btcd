@@ -27,7 +27,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/btcsuite/websocket"
 	"github.com/firobridge/btcd/blockchain"
 	"github.com/firobridge/btcd/blockchain/indexers"
@@ -42,6 +41,7 @@ import (
 	"github.com/firobridge/btcd/peer"
 	"github.com/firobridge/btcd/txscript"
 	"github.com/firobridge/btcd/wire"
+	"github.com/firobridge/btcutil"
 )
 
 // API version constants

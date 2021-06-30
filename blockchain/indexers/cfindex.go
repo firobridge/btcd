@@ -7,14 +7,14 @@ package indexers
 import (
 	"errors"
 
-	"github.com/btcsuite/btcutil"
-	"github.com/btcsuite/btcutil/gcs"
-	"github.com/btcsuite/btcutil/gcs/builder"
 	"github.com/firobridge/btcd/blockchain"
 	"github.com/firobridge/btcd/chaincfg"
 	"github.com/firobridge/btcd/chaincfg/chainhash"
 	"github.com/firobridge/btcd/database"
 	"github.com/firobridge/btcd/wire"
+	"github.com/firobridge/btcutil"
+	"github.com/firobridge/btcutil/gcs"
+	"github.com/firobridge/btcutil/gcs/builder"
 )
 
 const (

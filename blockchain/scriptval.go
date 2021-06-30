@@ -10,9 +10,9 @@ import (
 	"runtime"
 	"time"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/txscript"
 	"github.com/firobridge/btcd/wire"
+	"github.com/firobridge/btcutil"
 )
 
 // txValidateItem holds a transaction along with which input to validate.

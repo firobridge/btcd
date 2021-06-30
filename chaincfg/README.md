@@ -24,7 +24,7 @@ import (
 	"fmt"
 	"log"
 
-	"github.com/btcsuite/btcutil"
+	"github.com/firobridge/btcutil"
 	"github.com/firobridge/btcd/chaincfg"
 )
 

@@ -12,7 +12,6 @@ import (
 	"sync/atomic"
 	"time"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/blockchain"
 	"github.com/firobridge/btcd/chaincfg"
 	"github.com/firobridge/btcd/chaincfg/chainhash"
@@ -20,6 +19,7 @@ import (
 	"github.com/firobridge/btcd/mempool"
 	peerpkg "github.com/firobridge/btcd/peer"
 	"github.com/firobridge/btcd/wire"
+	"github.com/firobridge/btcutil"
 )
 
 const (

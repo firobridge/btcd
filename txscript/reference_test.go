@@ -15,9 +15,9 @@ import (
 	"strings"
 	"testing"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/chaincfg/chainhash"
 	"github.com/firobridge/btcd/wire"
+	"github.com/firobridge/btcutil"
 )
 
 // scriptTestName returns a descriptive test name for the given reference script

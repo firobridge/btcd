@@ -11,8 +11,8 @@ import (
 
 	"github.com/firobridge/btcd/chaincfg/chainhash"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/wire"
+	"github.com/firobridge/btcutil"
 )
 
 // GetBlockHeaderVerboseResult models the data from the getblockheader command when

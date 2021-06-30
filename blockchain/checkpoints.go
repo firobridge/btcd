@@ -8,10 +8,10 @@ import (
 	"fmt"
 	"time"
 
-	"github.com/btcsuite/btcutil"
 	"github.com/firobridge/btcd/chaincfg"
 	"github.com/firobridge/btcd/chaincfg/chainhash"
 	"github.com/firobridge/btcd/txscript"
+	"github.com/firobridge/btcutil"
 )
 
 // CheckpointConfirmations is the number of blocks before the end of the current
